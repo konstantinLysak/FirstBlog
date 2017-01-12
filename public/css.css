@@ -1,0 +1,113 @@
+.body
+{
+    background-color: paleturquoise;
+}
+.header
+{
+    background-color:#FFFF00;
+    text-align: center;
+    border: 1px double black;
+    padding-left: 0;
+    height: 153px;
+}
+
+.reg_form_log
+{
+    margin-left: 29%;
+    width: 65%; /* Ширина слоя */
+    background: gray; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+.left
+{
+    position: absolute;
+    left: 0;
+    top: 56.1%;
+    width: 100%;
+}
+.right
+{
+    position: absolute;
+    right: 20%;
+    top: 56.1%;
+    width: 10%;
+}
+.reg_form
+{
+    margin-left: 25%; /* Отступ слева */
+    width: 25%; /* Ширина слоя */
+    background: gray; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+.post_form
+{
+    margin-left: 30%; /* Отступ слева */
+    width: 35%; /* Ширина слоя */
+    background: gray; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+}
+.section
+{
+    text-align: center;
+}
+menu
+{
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:0px; /*делаем отступ сверху*/
+    background:#FF4444; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+    height: 50px; /*задаем высоту*/
+}
+.ClassA
+{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#FF4444; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+    color:#fff; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #F36262; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+.ClassA:hover
+{
+    background:#D43737;/*добавляем эффект при наведении*/
+}
+li
+{
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+p
+{
+    font-size: 12pt;
+    font-size: 12px;
+    font-size: 120%;
+}
+main
+{
+    margin: 0 auto;
+    width: auto;
+    display: block;
+}
+aside
+{
+    float: right;
+    padding-left: 30px;
+    width: 25%;
+    display: block;
+    overflow: hidden;
+    position:relative;
+}
+footer
+{
+    background-color: #373737;
+    clear: both;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+
